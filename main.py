@@ -8,7 +8,6 @@
 #
 
 
-
 scoresMatrix = [
     [9,0,  1,2,  10,   2,8,  1,3,  0,2,  7,1,  8,2,  5,5,  4,2],
     [1,4,  4,5,  6,4,  5,5,  10,   0,1,  7,3,  6,4,  10,   2,8,6],
@@ -25,7 +24,7 @@ scoresResult = [92, 133, 168, 300, 291, 287, 271, 122, 133]
 
 def main():
 
-    # Iterate through every scores
+    # Iterate through every score
     for j, scorez in enumerate(scoresMatrix):
 
         finalScore = 0
@@ -45,7 +44,7 @@ def main():
             
             #print(finalScore)
 
-        print("Computed score: " + str(finalScore) + ", true score: " + str(scoresResult[j]))
+        print("Computed: " + str(finalScore) + ", true: " + str(scoresResult[j]))
 
 
 if __name__ == "__main__":
